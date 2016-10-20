@@ -23,7 +23,7 @@ function buildRequestHandler(method) {
       options
     );
     return JSON.parse(res.getBody('utf8'));
-  }
+  };
 }
 
 var httpRequestHandler = {
@@ -34,3 +34,4 @@ var httpRequestHandler = {
 };
 
 jbpm = require('./jbpm-stub.js')(httpRequestHandler);
+module.exports = jbpm;

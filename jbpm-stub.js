@@ -1,5 +1,5 @@
 function _buildStub(httpRequestHandler, doc){
-  doc = doc || require('./doc');
+  doc = doc || require('./jrapidoc.rest.model.json');
   var methods = [];
 
   for(var j  in doc.serviceGroups['REMOTE-URL/services/rest'].services){

@@ -1,4 +1,4 @@
-module.exports={
+{
   "customInfo" : {
     "jrapidoc-rest-plugin" : "0.5.0.Final"
   },
@@ -3669,4 +3669,4 @@ module.exports={
       "typeRef" : "boolean"
     }
   }
-};
+}
